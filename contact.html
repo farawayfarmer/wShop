@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <h1>Contacto</h1>
+    <hr />
+    <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="items.html">Ítems</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+    </ul>
+    <hr />
+
+    <h2>Contáctanos</h2>
+    <p>Si deseas más información, <a href="tel:+34666666666">llámanos</a> o rellena el siguiente formulario.</p>
+
+    <form action="mailto:example@example.com" method="post" enctype="text/plain">
+        <label for="name">Nombre:</label><br />
+        <input type="text" id="name" name="name" required>
+        <br /><br />
+
+        <label for="email">Correo electrónico:</label><br />
+        <input type="email" id="email" name="email" required>
+        <br /><br />
+
+        <label for="message">Mensaje:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br /><br />
+
+        <button type="submit">Enviar</button>
+    </form>
+    <br />
+
+    <hr />
+    <p>También puedes escribirnos a <a href="mailto:example@example.com">nuestro correo</a>.</p>
+    <br />
+
+    <h2>¿Dónde estamos?</h2>
+    <p>Actualmente no tenemos una ubicación concreta que podamos difundir aunque sí que podemos asegurar que estamos en
+        un búnker submarino secreto de mucho presupuesto debajo de la parte visible de la Antártida.</p>
+    <p>Te retamos a encontrarnos.</p>
+    <img src="assets/antartica.jpg" alt="¿Dónde estamos?" width="478px" height="314px" /><br />
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17414015.42712313!2d0!3d-74.55014702047569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAntarctica!5e0!3m2!1sen!2ses!4v1731356558396!5m2!1sen!2ses"
+        width="478px" height="314px" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+
+</html>
